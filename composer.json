@@ -1,5 +1,5 @@
 {
-    "name": "Drdre4life2/laravel-api-response",
+    "name": "drdre4life2/laravel-api-response",
     "description": "A simple JSON response helper for Laravel 10+",
     "type": "library",
     "license": "MIT",
