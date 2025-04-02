@@ -10,11 +10,6 @@ Install the package via Composer:
 composer require drdre4life2/api-response
 ```
 
-Next, publish the configuration file (if needed):
-```bash
-php artisan vendor:publish --tag=api-response-config
-```
-
 ## Usage
 
 ### Include the Trait
@@ -23,12 +18,13 @@ Add the `HasApiResponse` trait to your base `Controller`:
 ```php
 namespace App\Http\Controllers;
 
-use Drdre4life2001\ApiResponse\Traits\HasApiResponse;
-use Illuminate\Routing\Controller as BaseController;
+use Drdre4life2\ApiResponse\Traits\HasApiResponse;
 
-class Controller extends BaseController
+
+abstract class Controller
 {
     use HasApiResponse;
+
 }
 ```
 
