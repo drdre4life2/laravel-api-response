@@ -3,7 +3,7 @@
 namespace Drdre4life2\ApiResponse\Tests;
 
 use Illuminate\Http\JsonResponse;
-use YourVendor\ApiResponse\Traits\HasApiResponse;
+use Drdre4life2\ApiResponse\Traits\HasApiResponse;
 use PHPUnit\Framework\TestCase;
 
 class HasApiResponseTest extends TestCase

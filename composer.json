@@ -26,6 +26,6 @@
             "Drdre4life2\\ApiResponse\\Tests\\": "tests/"
         }
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true
 }
